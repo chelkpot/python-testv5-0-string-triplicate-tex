@@ -3,7 +3,7 @@
 def solve():
 # Ниже пишите решение задачи
 
-    a, b, c = map(input().split())
+    a, b, c = map(str,input().split())
     print("Код символа A равен",ord(a))
     print("Код символа B равен",ord(b))
     print("Код символа c равен",ord(c))
