@@ -2,6 +2,9 @@
 
 def solve():
 # Ниже пишите решение задачи
+    a = input()
+    b = input()
+    print(b+a)
      
 
 
