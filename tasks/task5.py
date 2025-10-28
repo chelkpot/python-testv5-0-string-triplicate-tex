@@ -6,7 +6,7 @@ def solve():
     a, b, c = map(str,input().split())
     print("Код символа A равен",ord(a))
     print("Код символа B равен",ord(b))
-    print("Код символа c равен",ord(c))
+    print("Код символа C равен",ord(c))
 
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
