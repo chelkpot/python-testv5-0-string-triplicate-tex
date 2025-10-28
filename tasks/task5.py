@@ -2,11 +2,9 @@
 
 def solve():
 # Ниже пишите решение задачи
-
-    a, b, c = map(str,input().split())
-    print("Код символа A равен",ord(a))
-    print("Код символа B равен",ord(b))
-    print("Код символа C равен",ord(c))
+    chars = input().split()
+    for char in chars:
+        print(f"Код символа {char} равен {ord(char)}")
 
 # Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
